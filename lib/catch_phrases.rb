@@ -10,3 +10,7 @@ end
 def toadstool
   puts $status
 end
+
+def any_phase(phrase)
+  puts phrase
+end
