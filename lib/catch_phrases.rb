@@ -1,5 +1,5 @@
 $status = " "
-$phrase = " "
+$phrase = "Do A Barrel Roll!"
 def mario
   $status = 'Thank You Mario! But Our Princess Is In Another Castle!'
   phrase = "It's-a me, Mario!"
@@ -12,5 +12,7 @@ def toadstool
 end
 
 def any_phase(phrase)
-  puts phrase
+  puts $phrase
 end
+
+any_phase("what the hell")
