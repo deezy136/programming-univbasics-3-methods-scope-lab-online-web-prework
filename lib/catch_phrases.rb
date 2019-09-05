@@ -11,6 +11,12 @@ def toadstool
   puts $status
 end
 
+def link
+  
+  puts 
+  
+  
+  
 def any_phase(phrase)
   puts $phrase
 end
