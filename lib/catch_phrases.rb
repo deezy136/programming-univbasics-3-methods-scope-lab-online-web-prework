@@ -12,13 +12,13 @@ def toadstool
 end
 
 def link
+    puts "It's Dangerous To Go Alone! Take This."
+end
   
-  puts 
-  
-  
-  
+ 
 def any_phase(phrase)
   puts $phrase
 end
 
+link
 any_phase("what the hell")
