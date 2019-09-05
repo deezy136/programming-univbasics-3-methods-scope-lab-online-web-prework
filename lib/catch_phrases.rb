@@ -1,5 +1,5 @@
 $status = " "
-$phrase = "Do A Barrel Roll!"
+
 
 def mario
   $status = 'Thank You Mario! But Our Princess Is In Another Castle!'
@@ -18,7 +18,8 @@ end
   
  
 def any_phase(phrase)
-  puts $phrase
+  phrase = "Do A Barrel Roll!"
+  puts phrase
 end
 
 link
