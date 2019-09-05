@@ -17,7 +17,7 @@ end
   
  
 def any_phase(phrase)
-  puts $phrase
+  puts phrase
 end
 
 link
