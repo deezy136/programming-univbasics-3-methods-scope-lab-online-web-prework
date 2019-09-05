@@ -1,6 +1,6 @@
 $status = " "
 
-$phrase = "Do A Barrel Roll!"
+#$phrase = "Do A Barrel Roll!"
 
 def mario
   $status = 'Thank You Mario! But Our Princess Is In Another Castle!'
@@ -19,9 +19,9 @@ end
   
  
 def any_phrase(phrase = "Do A Barrel Roll!")
-  
+  phrase "Do A Barrel Roll!"
   puts phrase
 end
 
 link
-any_phrase("what the hell")
+any_phrase("yo")
