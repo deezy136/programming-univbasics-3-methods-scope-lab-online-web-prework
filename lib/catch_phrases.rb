@@ -17,10 +17,10 @@ def link
 end
   
  
-def any_phase(phrase)
+def any_phrase(phrase)
   phrase = "Do A Barrel Roll!"
   puts phrase
 end
 
 link
-any_phase("what the hell")
+any_phrase("what the hell")
